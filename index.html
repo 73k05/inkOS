@@ -1,283 +1,311 @@
 <!DOCTYPE html>
-
 <!--  Last Published: Wed Feb 19 2020 15:19:52 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5e447b8ed28900ccc236d6dc" data-wf-site="5e447b8ed28900c88736d6d8">
+
 <head>
-  <meta charset="utf-8">
-  <title>inkOS</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="aKSf7L1XR3yZeVBbffg88nLG8UrPXBs7-sztosFq0-s" name="google-site-verification">
-  <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/inkos.webflow.css" rel="stylesheet" type="text/css">
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
-  <style>.anti-flicker-hide { opacity: 0 !important}</style>
-  <script type="text/javascript">(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;})(window,document.documentElement,'anti-flicker-hide','dataLayer',4000,{'GTM-5CGTFWC':true});</script>
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-85193412-10"></script>
-  <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-85193412-10', {'anonymize_ip': false, 'optimize_id': 'GTM-5CGTFWC'});</script>
+    <meta charset="utf-8">
+    <title>inkOS</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="aKSf7L1XR3yZeVBbffg88nLG8UrPXBs7-sztosFq0-s" name="google-site-verification">
+    <meta content="Webflow" name="generator">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/inkos.webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/inkos.css" rel="stylesheet" type="text/css">
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+    ! function(o, c) { var n = c.documentElement,
+            t = " w-mod-";
+        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);
+    </script>
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/webclip.png" rel="apple-touch-icon">
+    <style>.anti-flicker-hide { opacity: 0 !important}</style>
+    <script type="text/javascript">
+    (function(a, s, y, n, c, h, i, d, e) { s.className += ' ' + y;
+        h.start = 1 * new Date;
+        h.end = i = function() { s.className = s.className.replace(RegExp(' ?' + y), '') };
+        (a[n] = a[n] || []).hide = h;
+        setTimeout(function() { i();
+            h.end = null }, c);
+        h.timeout = c; })(window, document.documentElement, 'anti-flicker-hide', 'dataLayer', 4000, { 'GTM-5CGTFWC': true });
+    </script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-85193412-10"></script>
+    <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); } gtag('js', new Date());
+    gtag('config', 'UA-85193412-10', { 'anonymize_ip': false, 'optimize_id': 'GTM-5CGTFWC' });
+    </script>
+    <!-- Bootstrap For 73k05 -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- 73k05 send mail -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <!--   <script type="text/javascript">
+     (function(){
+        emailjs.init("user_okaI2d5BZr9wdrnselFor");
+     })();
+  </script> -->
 </head>
+
 <body>
-  <div class="header-08">
-    <div class="n06">
-      <div class="n06_navbar">
-        <div class="n06_container"><a href="#" class="n06_logo w-inline-block"><img src="images/avatar-inkOS.png" width="50" alt=""></a>
-          <div class="n06_link_wrap">
-            <a href="#process" class="n06_link w-inline-block">
-              <div class="n06_link_text">Process</div>
-            </a>
-            <a href="#portfolio" class="n06_link w-inline-block">
-              <div class="n06_link_text">Portfolio</div>
-            </a>
-            <a href="#offre" class="n06_link w-inline-block">
-              <div class="n06_link_text">Offre</div>
-            </a>
-            <a href="#" class="n06_link w-inline-block">
-              <div class="n06_link_text">Contact</div>
-            </a><a href="#" class="n06_btn w-button">Login</a></div>
-        </div>
-      </div>
-    </div>
-    <div class="container-h3">
-      <div class="block-left-hero">
-        <h1 class="hero_heading">0livier<br>Web Apps &amp; Data</h1>
-        <p class="para_white">Je suis FreeDev (Freelancer Développeur) d&#x27;applications mobiles sur Clermont-Ferrand en Auvergne.<br><br>Je propose la mise en place de solutions techniques en étudiant la faisabilité de votre projet afin d&#x27;aboutir à la conception du prototype.<br><br>Un projet WEB incluant du développement? Clique, clique...<br></p>
-        <div class="button-b2">
-          <div class="text-block-22">Visit flowbase</div><img src="images/arrow.svg" width="17" alt=""><a href="#" class="link_cover w-inline-block"></a></div>
-      </div>
-      <div class="block-right-hero"><img src="images/developer-4027337_960_720.png" srcset="images/developer-4027337_960_720-p-500.png 500w, images/developer-4027337_960_720.png 788w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, 45vw" alt="" class="hero_img"></div>
-    </div>
-    <div class="nav-07">
-      <div class="container-flex-n8">
-        <div class="nav-wrap-left-n7"><a href="#" class="logo-block-n7 w-inline-block"><img src="images/flowbase.png" width="150" alt=""></a>
-          <div class="nav-wrap-n7 w-hidden-small w-hidden-tiny">
-            <div data-delay="0" class="w-dropdown">
-              <div class="dropdown-toggle w-dropdown-toggle">
-                <div class="w-icon-dropdown-toggle"></div>
-                <div>Platform</div>
-              </div>
-              <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-            </div><a href="#" class="nav-link-n7">Pricing</a>
-            <div data-delay="0" class="w-dropdown">
-              <div class="dropdown-toggle-2 w-dropdown-toggle">
-                <div class="w-icon-dropdown-toggle"></div>
-                <div>Services</div>
-              </div>
-              <nav class="dropdown-n7 w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-            </div><a href="#" class="nav-link-n7">Resources</a></div>
-        </div>
-        <div class="nav-wrap-right-n7">
-          <div class="register-wrap-n8"><img src="https://uploads-ssl.webflow.com/5c35b25cdec4808684ce6aef/5c35b74cdec48041acce71db_search.svg" width="15" alt="" class="search-icon-n8">
-            <div>Search</div><a href="#" class="link-block-n7 w-inline-block"></a></div><a href="#" class="button-n7 w-button">Sign In</a></div>
-      </div>
-    </div>
-  </div>
-  <div id="process" class="section_01">
-    <div class="container_p">
-      <div class="col_40">
-        <h1 class="h1_example">Méthode</h1>
-        <p class="paragraph space-below">Je suis partisan du simple et efficace. Je mets en place des systèmes viables qui fonctionnent rapidement. Ensuite nous itérons ensemble afin de faire grandir le projet étape par étape.</p>
-      </div>
-      <div class="col_60">
-        <div class="card_row">
-          <div data-w-id="d9bf0bc1-9bac-5fa1-5c55-71ac35646879" class="card_base">
-            <div class="icon_wrap"><img src="images/technology.svg" width="55" alt="" class="icon"></div>
-            <div class="card_title_wrap">
-              <h1 class="h1_features-2">Analyse du besoin<br></h1>
-              <div class="text_features">Rédaction de specs, chiffrage adapté et choix du design</div>
-            </div><img src="https://uploads-ssl.webflow.com/5c9ddff0c7170aa239f946cc/5c9de3d1a9898d1c7cc7d1ff_Icon.svg" style="opacity:0;-webkit-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="arrow"></div>
-          <div data-w-id="31696d6a-3887-3888-4b5f-0a0c096c7866" class="card_base">
-            <div class="icon_wrap"><img src="images/cloud.svg" width="55" alt="" class="icon"></div>
-            <div class="card_title_wrap">
-              <h1 class="h1_features-2">Fondations de l&#x27;architecture technique<br></h1>
-              <div class="text_features">Choix des technos et connecteurs</div>
-            </div><img src="https://uploads-ssl.webflow.com/5c9ddff0c7170aa239f946cc/5c9de3d1a9898d1c7cc7d1ff_Icon.svg" style="opacity:0;-webkit-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="arrow"></div>
-        </div>
-        <div class="card_col_2">
-          <div data-w-id="0839fb79-9077-8c8f-fccc-44089ed3a19c" class="card_base">
-            <div class="icon_wrap"><img src="images/database.svg" width="55" alt="" class="icon"></div>
-            <div class="card_title_wrap">
-              <h1 class="h1_features-2">Dev et Data analysis<br></h1>
-              <div class="text_features">Développements et mise en place des données analytiques</div>
-            </div><img src="https://uploads-ssl.webflow.com/5c9ddff0c7170aa239f946cc/5c9de3d1a9898d1c7cc7d1ff_Icon.svg" style="opacity:0;-webkit-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="arrow"></div>
-          <div data-w-id="6386f079-c902-dc83-7914-1a7a18f1c11f" class="card_base">
-            <div class="icon_wrap"><img src="images/server.svg" width="55" alt="" class="icon"></div>
-            <div class="card_title_wrap">
-              <h1 class="h1_features-2">Mise en production<br></h1>
-              <div class="text_features">Respect des deadlines et prise en compte des retours utilisateurs en integration continue</div>
-            </div><img src="https://uploads-ssl.webflow.com/5c9ddff0c7170aa239f946cc/5c9de3d1a9898d1c7cc7d1ff_Icon.svg" style="opacity:0;-webkit-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="arrow"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section_01">
-    <div class="container-co2">
-      <div class="content-left-co2">
-        <h1 class="h1_example">Travail d&#x27;équipe pour répondre à votre besoin</h1>
-        <div class="check-wrap-co2">
-          <div class="check-co2"><img src="images/network-1.png" width="21" alt="" class="image-13">
-            <p class="text-co2">Je suis capable de mobiliser des ressources grace a mon <strong>réseau</strong> </p>
-          </div>
-          <div class="check-co2"><img src="images/helmet.png" width="21" alt="" class="image-13">
-            <p class="text-co2">Toutes les compétences requises pour un <strong>projet d&#x27;envergure</strong></p>
-          </div>
-          <div class="check-co2"><img src="images/agile.png" width="21" alt="" class="image-13">
-            <p class="text-co2"><strong>Méthode Agile</strong> prenant en compte les retours utilisateur</p>
-          </div>
-          <div class="check-co2"><img src="images/hand-shake.png" width="21" alt="" class="image-13">
-            <p class="text-co2">Nous travaillons tous ensemble dans l&#x27;efficacité et l&#x27;épanouissement</p>
-          </div>
-        </div>
-        <div class="button-b1">
-          <div class="text-block-22">Find out more</div><img src="https://uploads-ssl.webflow.com/5c35b25cdec4808684ce6aef/5c824e3c738ed9e5477f4516_arrow-right.svg" width="17" alt=""></div>
-      </div>
-      <div class="content-right-co2"><img src="images/developer-4027334_960_720.png" width="510" srcset="images/developer-4027334_960_720-p-500.png 500w, images/developer-4027334_960_720.png 788w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 46vw, 45vw" alt="" class="image-14"></div>
-    </div>
-  </div>
-  <div id="portfolio" class="section_02">
-    <div class="container-co2">
-      <div class="content-left-co2"><img src="images/clients.png" srcset="images/clients-p-500.png 500w, images/clients.png 1112w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 43vw, 40vw" alt=""></div>
-      <div class="content-right-co2">
-        <h1 class="h1_example">Expérience</h1>
-        <div class="check-wrap-co2">
-          <div class="check-co2"><img src="images/chip.png" width="21" alt="" class="image-13">
-            <p class="text-co2"><strong>14</strong> <strong>années</strong> en informatique<strong> </strong>&amp; <strong>2.5 millions</strong> de lignes de code</p>
-          </div>
-          <div class="check-co2"><img src="images/graduated.png" width="21" alt="" class="image-13">
-            <p class="text-co2">J&#x27;ai obtenu mon diplôme en informatique embarqué à l&#x27;UTBM de Belfort</p>
-          </div>
-          <div class="check-co2"><img src="images/robotic.png" width="21" alt="" class="image-13">
-            <p class="text-co2"><strong>28 projets </strong>universitaire perso et professionnels</p>
-          </div>
-          <div class="check-co2"><img src="images/brokerage.png" width="21" alt="" class="image-13">
-            <p class="text-co2"><strong>15 partenariats</strong> a mon actif <strong>Startups</strong> &amp; <strong>Grands Comptes</strong></p>
-          </div>
-          <div class="check-co2"><img src="images/language.png" width="21" alt="" class="image-13">
-            <p class="text-co2">Mes clients sont à Clermont et tout autours du monde France, États-Unis, Chine, Allemagne...</p>
-          </div>
-          <div class="check-co2"><img src="images/laptop.png" width="21" alt="" class="image-13">
-            <p class="text-co2">J&#x27;ai travaillé dans <strong>5 pays</strong> ou je me suis installé</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="content_wrap_02">
-    <div class="container_flex">
-      <h1 class="h1_c_2">Les entreprises locales et internationales <br>me font confiance</h1>
-      <div class="logo_wrap">
-        <div class="logo-wrap-c1"><img src="images/woom.png" width="130" alt=""></div>
-        <div class="logo-wrap-c1"><img src="images/bwhite.png" width="150" alt=""></div>
-        <div class="logo-wrap-c1"><img src="images/pixstar3.png" width="110" alt=""></div>
-        <div class="logo-wrap-c1"><img src="images/logo-sopra-steria2.png" width="140" alt=""></div>
-      </div>
-    </div>
-  </div>
-  <div id="offre" class="pricing-p3">
-    <div class="container-p4">
-      <div class="title-wrap-p3">
-        <h1 class="h1-p4">Travaillons ensemble<br>dans la sérénité</h1>
-      </div>
-      <div data-duration-in="300" data-duration-out="100" class="w-tabs">
-        <div class="tabs-menu-2 w-tab-menu">
-          <a data-w-tab="Tab 1" class="tab-link-tab-1 w-inline-block w-tab-link">
-            <div>JOUR</div>
-          </a>
-          <a data-w-tab="Tab 2" class="tab-link-tab-1 w-inline-block w-tab-link w--current">
-            <div>HEURE</div>
-          </a>
-        </div>
-        <div class="w-tab-content">
-          <div data-w-tab="Tab 1" class="tap-pane-p3 w-tab-pane">
-            <div class="w-row">
-              <div class="w-col w-col-4">
-                <div class="pricing-card-p4">
-                  <div class="text-block-18">G4ME</div>
-                  <h1 class="heading-2">Free</h1>
-                  <div class="text-block-19">1H30<br>Analyse de votre projet<br>Chiffrage<br>Conseils</div><a href="#" class="button-p3 w-button">Reserver</a>
-                  <div class="text-block-20">Sans engagement! Alors tu attends quoi pour me parler de la prochaine disruption?<br></div>
+    <div class="header-08">
+        <div class="n06">
+            <div class="n06_navbar">
+                <div class="n06_container"><a href="#" class="n06_logo w-inline-block"><img src="images/avatar-inkOS.png" width="50" alt=""></a>
+                    <div class="n06_link_wrap">
+                        <a href="#process" class="n06_link w-inline-block">
+                            <div class="n06_link_text">Process</div>
+                        </a>
+                        <a href="#portfolio" class="n06_link w-inline-block">
+                            <div class="n06_link_text">Portfolio</div>
+                        </a>
+                        <a href="#offre" class="n06_link w-inline-block">
+                            <div class="n06_link_text">Offre</div>
+                        </a>
+                        <a href="#" class="n06_link w-inline-block">
+                            <div class="n06_link_text">Contact</div>
+                        </a><a href="#" class="n06_btn w-button">Login</a></div>
                 </div>
-              </div>
-              <div class="w-col w-col-4">
-                <div class="pricing-card-p4 p4-dropshadow">
-                  <div class="text-block-18">JOUR</div>
-                  <h1 class="heading-2">$420</h1>
-                  <div class="text-block-19">Développements<br>Design &amp; UIX<br>Test &amp; Sécurité<br>Mise en prod<br>Analytics</div><a href="#" class="button-p3-02 w-button">demandeR UN devis</a>
-                  <div class="text-block-20">Tarif fix.<br></div>
-                </div>
-              </div>
-              <div class="w-col w-col-4">
-                <div class="pricing-card-p4">
-                  <div class="text-block-18">BOOST</div>
-                  <h1 class="heading-2">FLEXIBLE</h1>
-                  <div class="text-block-19">Reprise de projet<br>Devs ou dépannage en urgence<br>Maintenance &amp; Mises a jour</div><a href="#" class="button-p3 w-button">H4CK</a>
-                  <div class="text-block-20">Tarifs variables en fonction des prestations et de l&#x27;urgence.<br></div>
-                </div>
-              </div>
             </div>
-          </div>
-          <div data-w-tab="Tab 2" class="tap-pane-p3 w-tab-pane w--tab-active">
-            <div class="w-row">
-              <div class="w-col w-col-4">
-                <div class="pricing-card-p4">
-                  <div class="text-block-18">G4ME</div>
-                  <h1 class="heading-2">Free</h1>
-                  <div class="text-block-19">1H30<br>Analyse du projet<br>Chiffrage<br>Conseils</div><a href="#" class="button-p3 w-button">Reserver</a>
-                  <div class="text-block-20">Tu attends quoi pour me parler de la prochaine disruption?<br></div>
-                </div>
-              </div>
-              <div class="w-col w-col-4">
-                <div class="pricing-card-p4 p4-dropshadow">
-                  <div class="text-block-18">HEURE</div>
-                  <h1 class="heading-2">$60</h1>
-                  <div class="text-block-19">Développements<br>Design &amp; UIX<br>Test &amp; Sécurité<br>Mise en prod<br>Analytics</div><a href="#" class="button-p3-02 w-button">demandeR UN devis</a>
-                  <div class="text-block-20">Tarif fix.<br></div>
-                </div>
-              </div>
-              <div class="w-col w-col-4">
-                <div class="pricing-card-p4">
-                  <div class="text-block-18">BOOST</div>
-                  <h1 class="heading-2">FLEXIBLE</h1>
-                  <div class="text-block-19">Reprise de projet<br>Devs ou dépannage en urgence<br>Maintenance &amp; Mises a jour</div><a href="#" class="button-p3 w-button">H4CK</a>
-                  <div class="text-block-20">Tarifs variables en fonction des prestations et de l&#x27;urgence.<br></div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="f03">
-    <div class="container-3">
-      <div class="div-block-3">
-        <div class="columns w-row">
-          <div class="w-col w-col-3"><a href="#" class="w-nav-brand"><img src="images/pacman-bleu.png" width="50" alt=""></a></div>
-          <div class="f03_column w-col w-col-2"></div>
-          <div class="f03_column w-col w-col-2">
-            <div class="text-block-28">Spirit<br>Build Concrete</div>
-          </div>
-          <div class="f03_column w-col w-col-2">
-            <div class="link-header"></div>
-          </div>
-          <div class="f03_column_right w-col w-col-3">
-            <div class="social-icon-wrap-2">
-              <div class="social-icon-circle"><img src="https://uploads-ssl.webflow.com/5bce645c3fd49881b69e2cea/5bd11d96f5c6802128b5c603_facebook.svg" alt=""><a href="https://www.facebook.com/coopaturage" target="_blank" class="link-block-3 link-block-3 link-block-3 link-block-3 link-block-3 social-link w-inline-block"></a></div>
-              <div class="social-icon-circle"><img src="https://uploads-ssl.webflow.com/5bce645c3fd49881b69e2cea/5bd11d964a35671cd95b3acc_instagram%20(1).svg" alt=""><a href="https://www.facebook.com/coopaturage" target="_blank" class="link-block-3 link-block-3 link-block-3 link-block-3 link-block-3 social-link w-inline-block"></a></div>
-              <div class="social-icon-circle"><img src="https://uploads-ssl.webflow.com/5bce645c3fd49881b69e2cea/5bd11d964a35679d465b3acb_linkedin%20(1).svg" alt=""><a href="https://www.linkedin.com/in/olivier-peyronnel-a43b5822/" target="_blank" class="link-block-3 link-block-3 link-block-3 link-block-3 link-block-3 social-link w-inline-block"></a></div>
+        <div class="container-h3">
+            <div class="block-left-hero">
+                <h1 class="hero_heading">Olivier<br>Web Apps &amp; Data</h1>
+                <p class="para_white">Je suis FreeDev (Freelancer Développeur) d&#x27;applications mobiles sur Clermont-Ferrand en Auvergne.<br><br>Je propose la mise en place de solutions techniques en étudiant la faisabilité de votre projet afin d&#x27;aboutir à la conception du prototype.<br><br>Un projet WEB incluant du développement? Click, Clack...<br></p>
+                <form class="row flex-fill" id="contact-form">
+                    <div class="col-sm-6">
+                        <div class="button-b2">
+                            <input type="hidden" name="contact_number">
+                            <input type="hidden" name="is_already_sent">
+                            <input class="input-email" required type="email" placeholder="email@myproject.com" name="user_email" id="user_email">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="button-b2" onclick="sendMail()">
+                            <div class="text-block-22">Buzz</div>
+                            <img src="images/arrow.svg" width="17" alt="">
+                        </div>
+                    </div>
+                </form>
             </div>
-          </div>
+            <div class="block-right-hero"><img src="images/developer-4027337_960_720.png" srcset="images/developer-4027337_960_720-p-500.png 500w, images/developer-4027337_960_720.png 788w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, 45vw" alt="" class="hero_img"></div>
         </div>
-      </div>
     </div>
-    <div class="text-block-27">Copyright © inkOS 2020</div>
-  </div>
-  <div class="flowbase-tag"></div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    <div id="process" class="section_01">
+        <div class="container_p">
+            <div class="col_40">
+                <h1 class="h1_example">Méthode</h1>
+                <p class="paragraph space-below">Je suis partisan du simple et efficace. Je mets en place des systèmes viables qui fonctionnent rapidement. Ensuite nous itérons ensemble afin de faire grandir le projet étape par étape.</p>
+            </div>
+            <div class="col_60">
+                <div class="card_row">
+                    <div data-w-id="d9bf0bc1-9bac-5fa1-5c55-71ac35646879" class="card_base">
+                        <div class="icon_wrap"><img src="images/technology.svg" width="55" alt="" class="icon"></div>
+                        <div class="card_title_wrap">
+                            <h1 class="h1_features-2">Analyse du besoin<br></h1>
+                            <div class="text_features">Rédaction de specs, chiffrage adapté et choix du design</div>
+                        </div><img src="https://uploads-ssl.webflow.com/5c9ddff0c7170aa239f946cc/5c9de3d1a9898d1c7cc7d1ff_Icon.svg" style="opacity:0;-webkit-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="arrow">
+                    </div>
+                    <div data-w-id="31696d6a-3887-3888-4b5f-0a0c096c7866" class="card_base">
+                        <div class="icon_wrap"><img src="images/cloud.svg" width="55" alt="" class="icon"></div>
+                        <div class="card_title_wrap">
+                            <h1 class="h1_features-2">Fondations de l&#x27;architecture technique<br></h1>
+                            <div class="text_features">Choix des technos et connecteurs</div>
+                        </div><img src="https://uploads-ssl.webflow.com/5c9ddff0c7170aa239f946cc/5c9de3d1a9898d1c7cc7d1ff_Icon.svg" style="opacity:0;-webkit-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="arrow">
+                    </div>
+                </div>
+                <div class="card_col_2">
+                    <div data-w-id="0839fb79-9077-8c8f-fccc-44089ed3a19c" class="card_base">
+                        <div class="icon_wrap"><img src="images/database.svg" width="55" alt="" class="icon"></div>
+                        <div class="card_title_wrap">
+                            <h1 class="h1_features-2">Dev et Data analysis<br></h1>
+                            <div class="text_features">Développements et mise en place des données analytiques</div>
+                        </div><img src="https://uploads-ssl.webflow.com/5c9ddff0c7170aa239f946cc/5c9de3d1a9898d1c7cc7d1ff_Icon.svg" style="opacity:0;-webkit-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="arrow">
+                    </div>
+                    <div data-w-id="6386f079-c902-dc83-7914-1a7a18f1c11f" class="card_base">
+                        <div class="icon_wrap"><img src="images/server.svg" width="55" alt="" class="icon"></div>
+                        <div class="card_title_wrap">
+                            <h1 class="h1_features-2">Mise en production<br></h1>
+                            <div class="text_features">Respect des deadlines et prise en compte des retours utilisateurs en integration continue</div>
+                        </div><img src="https://uploads-ssl.webflow.com/5c9ddff0c7170aa239f946cc/5c9de3d1a9898d1c7cc7d1ff_Icon.svg" style="opacity:0;-webkit-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="arrow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section_01">
+        <div class="container-co2">
+            <div class="content-left-co2">
+                <h1 class="h1_example">Travail d&#x27;équipe pour répondre à votre besoin</h1>
+                <div class="check-wrap-co2">
+                    <div class="check-co2"><img src="images/network-1.png" width="21" alt="" class="image-13">
+                        <p class="text-co2">Je suis capable de mobiliser des ressources grace a mon <strong>réseau</strong> </p>
+                    </div>
+                    <div class="check-co2"><img src="images/helmet.png" width="21" alt="" class="image-13">
+                        <p class="text-co2">Toutes les compétences requises pour un <strong>projet d&#x27;envergure</strong></p>
+                    </div>
+                    <div class="check-co2"><img src="images/agile.png" width="21" alt="" class="image-13">
+                        <p class="text-co2"><strong>Méthode Agile</strong> prenant en compte les retours utilisateur</p>
+                    </div>
+                    <div class="check-co2"><img src="images/hand-shake.png" width="21" alt="" class="image-13">
+                        <p class="text-co2">Nous travaillons tous ensemble dans l&#x27;efficacité et l&#x27;épanouissement</p>
+                    </div>
+                </div>
+                </div>
+            <div class="content-right-co2"><img src="images/developer-4027334_960_720.png" width="510" srcset="images/developer-4027334_960_720-p-500.png 500w, images/developer-4027334_960_720.png 788w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 46vw, 45vw" alt="" class="image-14"></div>
+        </div>
+    </div>
+    <div id="portfolio" class="section_02">
+        <div class="container-co2">
+            <div class="content-left-co2"><img src="images/clients.png" srcset="images/clients-p-500.png 500w, images/clients.png 1112w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 43vw, 40vw" alt=""></div>
+            <div class="content-right-co2">
+                <h1 class="h1_example">Expérience</h1>
+                <div class="check-wrap-co2">
+                    <div class="check-co2"><img src="images/chip.png" width="21" alt="" class="image-13">
+                        <p class="text-co2"><strong>14</strong> <strong>années</strong> en informatique<strong> </strong>&amp; <strong>2.5 millions</strong> de lignes de code</p>
+                    </div>
+                    <div class="check-co2"><img src="images/graduated.png" width="21" alt="" class="image-13">
+                        <p class="text-co2">J&#x27;ai obtenu mon diplôme en informatique embarqué à l&#x27;UTBM de Belfort</p>
+                    </div>
+                    <div class="check-co2"><img src="images/robotic.png" width="21" alt="" class="image-13">
+                        <p class="text-co2"><strong>28 projets </strong>universitaire perso et professionnels</p>
+                    </div>
+                    <div class="check-co2"><img src="images/brokerage.png" width="21" alt="" class="image-13">
+                        <p class="text-co2"><strong>15 partenariats</strong> a mon actif <strong>Startups</strong> &amp; <strong>Grands Comptes</strong></p>
+                    </div>
+                    <div class="check-co2"><img src="images/language.png" width="21" alt="" class="image-13">
+                        <p class="text-co2">Mes clients sont à Clermont et tout autours du monde France, États-Unis, Chine, Allemagne...</p>
+                    </div>
+                    <div class="check-co2"><img src="images/laptop.png" width="21" alt="" class="image-13">
+                        <p class="text-co2">J&#x27;ai travaillé dans <strong>5 pays</strong> ou je me suis installé</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content_wrap_02">
+        <div class="container_flex">
+            <h1 class="h1_c_2">Les entreprises locales et internationales <br>me font confiance</h1>
+            <div class="logo_wrap">
+                <div class="logo-wrap-c1"><img src="images/woom.png" width="130" alt=""></div>
+                <div class="logo-wrap-c1"><img src="images/bwhite.png" width="150" alt=""></div>
+                <div class="logo-wrap-c1"><img src="images/pixstar3.png" width="110" alt=""></div>
+                <div class="logo-wrap-c1"><img src="images/logo-sopra-steria2.png" width="140" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div id="offre" class="pricing-p3">
+        <div class="container-p4">
+            <div class="title-wrap-p3">
+                <h1 class="h1-p4">Travaillons ensemble<br>dans la sérénité</h1>
+            </div>
+            <div data-duration-in="300" data-duration-out="100" class="w-tabs">
+                <div class="tabs-menu-2 w-tab-menu">
+                    <a data-w-tab="Tab 1" class="tab-link-tab-1 w-inline-block w-tab-link">
+                        <div>JOUR</div>
+                    </a>
+                    <a data-w-tab="Tab 2" class="tab-link-tab-1 w-inline-block w-tab-link w--current">
+                        <div>HEURE</div>
+                    </a>
+                </div>
+                <div class="w-tab-content">
+                    <div data-w-tab="Tab 1" class="tap-pane-p3 w-tab-pane">
+                        <div class="w-row">
+                            <div class="w-col w-col-4">
+                                <div class="pricing-card-p4">
+                                    <div class="text-block-18">G4ME</div>
+                                    <h1 class="heading-2">Free</h1>
+                                    <div class="text-block-19">1H30<br>Analyse de votre projet<br>Chiffrage<br>Conseils</div><a href="#" class="button-p3 w-button">Reserver</a>
+                                    <div class="text-block-20">Sans engagement! Alors tu attends quoi pour me parler de la prochaine disruption?<br></div>
+                                </div>
+                            </div>
+                            <div class="w-col w-col-4">
+                                <div class="pricing-card-p4 p4-dropshadow">
+                                    <div class="text-block-18">JOUR</div>
+                                    <h1 class="heading-2">$420</h1>
+                                    <div class="text-block-19">Développements<br>Design &amp; UIX<br>Test &amp; Sécurité<br>Mise en prod<br>Analytics</div><a href="#" class="button-p3-02 w-button">demandeR UN devis</a>
+                                    <div class="text-block-20">Tarif fix.<br></div>
+                                </div>
+                            </div>
+                            <div class="w-col w-col-4">
+                                <div class="pricing-card-p4">
+                                    <div class="text-block-18">BOOST</div>
+                                    <h1 class="heading-2">FLEXIBLE</h1>
+                                    <div class="text-block-19">Reprise de projet<br>Devs ou dépannage en urgence<br>Maintenance &amp; Mises a jour</div><a href="#" class="button-p3 w-button">H4CK</a>
+                                    <div class="text-block-20">Tarifs variables en fonction des prestations et de l&#x27;urgence.<br></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-tab="Tab 2" class="tap-pane-p3 w-tab-pane w--tab-active">
+                        <div class="w-row">
+                            <div class="w-col w-col-4">
+                                <div class="pricing-card-p4">
+                                    <div class="text-block-18">G4ME</div>
+                                    <h1 class="heading-2">Free</h1>
+                                    <div class="text-block-19">1H30<br>Analyse du projet<br>Chiffrage<br>Conseils</div><a href="#" class="button-p3 w-button">Reserver</a>
+                                    <div class="text-block-20">Tu attends quoi pour me parler de la prochaine disruption?<br></div>
+                                </div>
+                            </div>
+                            <div class="w-col w-col-4">
+                                <div class="pricing-card-p4 p4-dropshadow">
+                                    <div class="text-block-18">HEURE</div>
+                                    <h1 class="heading-2">$60</h1>
+                                    <div class="text-block-19">Développements<br>Design &amp; UIX<br>Test &amp; Sécurité<br>Mise en prod<br>Analytics</div><a href="#" class="button-p3-02 w-button">demandeR UN devis</a>
+                                    <div class="text-block-20">Tarif fix.<br></div>
+                                </div>
+                            </div>
+                            <div class="w-col w-col-4">
+                                <div class="pricing-card-p4">
+                                    <div class="text-block-18">BOOST</div>
+                                    <h1 class="heading-2">FLEXIBLE</h1>
+                                    <div class="text-block-19">Reprise de projet<br>Devs ou dépannage en urgence<br>Maintenance &amp; Mises a jour</div><a href="#" class="button-p3 w-button">H4CK</a>
+                                    <div class="text-block-20">Tarifs variables en fonction des prestations et de l&#x27;urgence.<br></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="f03">
+        <div class="container-3">
+            <div class="div-block-3">
+                <div class="columns w-row">
+                    <div class="w-col w-col-3"><a href="#" class="w-nav-brand"><img src="images/pacman-bleu.png" width="50" alt=""></a></div>
+                    <div class="f03_column w-col w-col-2"></div>
+                    <div class="f03_column w-col w-col-2">
+                        <div class="text-block-28">Spirit<br>Build Concrete</div>
+                    </div>
+                    <div class="f03_column w-col w-col-2">
+                        <div class="link-header"></div>
+                    </div>
+                    <div class="f03_column_right w-col w-col-3">
+                        <div class="social-icon-wrap-2">
+                            <div class="social-icon-circle"><img src="https://uploads-ssl.webflow.com/5bce645c3fd49881b69e2cea/5bd11d96f5c6802128b5c603_facebook.svg" alt=""><a href="https://www.facebook.com/coopaturage" target="_blank" class="link-block-3 link-block-3 link-block-3 link-block-3 link-block-3 social-link w-inline-block"></a></div>
+
+                            <div class="social-icon-circle"><img src="https://uploads-ssl.webflow.com/5bce645c3fd49881b69e2cea/5bd11d964a35679d465b3acb_linkedin%20(1).svg" alt=""><a href="https://www.linkedin.com/in/olivier-peyronnel-a43b5822/" target="_blank" class="link-block-3 link-block-3 link-block-3 link-block-3 link-block-3 social-link w-inline-block"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-block-27">Copyright © inkOS 2020</div>
+    </div>
+    <div class="flowbase-tag"></div>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <!-- 73k05 JS -->
+    <script src="js/email.js" type="text/javascript"></script>
+    
 </body>
+
 </html>

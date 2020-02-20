@@ -1,0 +1,11 @@
+.input-email {
+  background-color: transparent;
+  border: 0px solid;
+  /*margin:-1px;*/
+}
+
+
+.flex-fill {
+    flex:1;
+    width: 100%
+}
