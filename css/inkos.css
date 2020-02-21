@@ -1,11 +1,32 @@
 .input-email {
-  background-color: transparent;
-  border: 0px solid;
-  /*margin:-1px;*/
+    background-color: transparent;
+    border: 0px solid;
 }
 
+.mousse-over:hover {
+    cursor: pointer;
+}
+
+.input-picker {
+    background-color: transparent;
+    border: 0px solid;
+    text-align: center;
+    color: #6165FF;
+}
 
 .flex-fill {
-    flex:1;
-    width: 100%
+    flex: 1;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.form-book{
+  text-align: center;
+}
+
+.error-text{
+  color: #910C21;
 }
