@@ -214,10 +214,10 @@
             </div>
             <div data-duration-in="300" data-duration-out="100" class="w-tabs">
                 <div class="tabs-menu-2 w-tab-menu">
-                    <a data-w-tab="Tab 1" class="tab-link-tab-1 w-inline-block w-tab-link">
+                    <a data-w-tab="Tab 1" class="tab-link-tab-1 w-inline-block w-tab-link w--current">
                         <div>JOUR</div>
                     </a>
-                    <a data-w-tab="Tab 2" class="tab-link-tab-1 w-inline-block w-tab-link w--current">
+                    <a data-w-tab="Tab 2" class="tab-link-tab-1 w-inline-block w-tab-link">
                         <div>HEURE</div>
                     </a>
                 </div>
@@ -235,20 +235,20 @@
                                         <input type="hidden" name="contact_number">
                                         <input type="hidden" name="is_already_sent">
                                         <div id="input-email-book" class="button-b2 hide">
-                                            <input type="email" class="input-email" required type="email" placeholder="email@myproject.com" name="user_email">
+                                            <input type="email" class="input-email-book" required type="email" placeholder="email@myproject.com" name="user_email">
                                         </div>
                                         <div id="error-book" class="error-text hide"></div>
                                         <div id="book-button" class="button-p3 w-button" onclick="book()">Choisir la date</div>
                                         <img id="book-check" src="images/check.svg" width="50" alt="" class="hide">
                                     </form>
-                                    <div class="text-block-20">Sans engagement! Alors tu attends quoi pour me parler de la prochaine disruption?<br></div>
+                                    <div class="text-block-20">Sans engagement! What are you waiting for?<br></div>
                                 </div>
                             </div>
                             <div class="w-col w-col-4">
                                 <div class="pricing-card-p4 p4-dropshadow">
                                     <div class="text-block-18">JOUR</div>
-                                    <h1 class="heading-2">$420</h1>
-                                    <div class="text-block-19">Développements<br>Design &amp; UIX<br>Test &amp; Sécurité<br>Mise en prod<br>Analytics</div><a href="#" class="button-p3-02 w-button">demandeR UN devis</a>
+                                    <h1 class="heading-2">€420</h1>
+                                    <div class="text-block-19">Développements<br>Design &amp; UIX<br>Test &amp; Sécurité<br>Mise en prod<br>Analytics</div><a href="#" class="button-p3-02 w-button boutton-disable">demandeR UN devis</a>
                                     <div class="text-block-20">Tarif fix.<br></div>
                                 </div>
                             </div>
@@ -256,7 +256,8 @@
                                 <div class="pricing-card-p4">
                                     <div class="text-block-18">BOOST</div>
                                     <h1 class="heading-2">FLEXIBLE</h1>
-                                    <div class="text-block-19">Reprise de projet<br>Devs ou dépannage en urgence<br>Maintenance &amp; Mises a jour</div><a href="#" class="button-p3 w-button">H4CK</a>
+                                    <div class="text-block-19">Reprise de projet<br>Devs ou dépannage en urgence<br>Maintenance &amp; Mises a jour</div>
+                                    <a href="#" class="button-p3 w-button boutton-disable">H4CK</a>
                                     <div class="text-block-20">Tarifs variables en fonction des prestations et de l&#x27;urgence.<br></div>
                                 </div>
                             </div>
@@ -268,15 +269,27 @@
                                 <div class="pricing-card-p4">
                                     <div class="text-block-18">G4ME</div>
                                     <h1 class="heading-2">Free</h1>
-                                    <div class="text-block-19">1H30<br>Analyse du projet<br>Chiffrage<br>Conseils</div><a href="#" class="button-p3 w-button">Reserver</a>
-                                    <div class="text-block-20">Tu attends quoi pour me parler de la prochaine disruption?<br></div>
+                                    <div class="text-block-19">1H30<br>Analyse du projet<br>Chiffrage<br>Conseils</div>
+                                     <!-- ACTION BOOK -->
+<!--                                     <form class="form-book" id="book-form">
+                                        <input type="text" id="datepicker" class="input-picker">
+                                        <input type="hidden" name="contact_number">
+                                        <input type="hidden" name="is_already_sent">
+                                        <div id="input-email-book" class="button-b2 hide">
+                                            <input type="email" class="input-email-book" required type="email" placeholder="email@myproject.com" name="user_email">
+                                        </div>
+                                        <div id="error-book" class="error-text hide"></div> -->
+                                        <div id="book-button" class="button-p3 w-button boutton-disable" onclick="">Choisir la date</div>
+<!--                                         <img id="book-check" src="images/check.svg" width="50" alt="" class="hide">
+                                    </form> -->
+                                    <div class="text-block-20">Sans engagement! What are you waiting for?<br></div>
                                 </div>
                             </div>
                             <div class="w-col w-col-4">
                                 <div class="pricing-card-p4 p4-dropshadow">
                                     <div class="text-block-18">HEURE</div>
-                                    <h1 class="heading-2">$60</h1>
-                                    <div class="text-block-19">Développements<br>Design &amp; UIX<br>Test &amp; Sécurité<br>Mise en prod<br>Analytics</div><a href="#" class="button-p3-02 w-button">demandeR UN devis</a>
+                                    <h1 class="heading-2">€60</h1>
+                                    <div class="text-block-19">Développements<br>Design &amp; UIX<br>Test &amp; Sécurité<br>Mise en prod<br>Analytics</div><a href="#" class="button-p3-02 w-button boutton-disable">demandeR UN devis</a>
                                     <div class="text-block-20">Tarif fix.<br></div>
                                 </div>
                             </div>
@@ -284,7 +297,8 @@
                                 <div class="pricing-card-p4">
                                     <div class="text-block-18">BOOST</div>
                                     <h1 class="heading-2">FLEXIBLE</h1>
-                                    <div class="text-block-19">Reprise de projet<br>Devs ou dépannage en urgence<br>Maintenance &amp; Mises a jour</div><a href="#" class="button-p3 w-button">H4CK</a>
+                                    <div class="text-block-19">Reprise de projet<br>Devs ou dépannage en urgence<br>Maintenance &amp; Mises a jour</div>
+                                    <a href="#" class="button-p3 w-button boutton-disable">H4CK</a>
                                     <div class="text-block-20">Tarifs variables en fonction des prestations et de l&#x27;urgence.<br></div>
                                 </div>
                             </div>

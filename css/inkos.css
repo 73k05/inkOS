@@ -3,8 +3,19 @@
     border: 0px solid;
 }
 
+.input-email-book {
+    background-color: transparent;
+    border: 0px solid;
+    text-align: center;
+}
+
 .mousse-over:hover {
     cursor: pointer;
+}
+
+.boutton-disable {
+    pointer-events: none;
+    opacity: 0.3;
 }
 
 .input-picker {
@@ -23,10 +34,10 @@
     display: none;
 }
 
-.form-book{
-  text-align: center;
+.form-book {
+    text-align: center;
 }
 
-.error-text{
-  color: #910C21;
+.error-text {
+    color: #910C21;
 }
