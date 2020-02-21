@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>http://www.inkos.fr/</loc>
+    <lastmod>2020-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+     <priority>0.7</priority>
+  </url> 
+  <url>
+    <loc>http://www.inkos.fr/#contact</loc>
+    <lastmod>2020-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+     <priority>0.5</priority>
+  </url> 
+  <url>
+    <loc>http://www.inkos.fr/#process</loc>
+    <lastmod>2020-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.inkos.fr/#portfolio</loc>
+    <lastmod>2020-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+     <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>http://www.inkos.fr/#offer</loc>
+    <lastmod>2020-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+     <priority>0.6</priority>
+  </url> 
+</urlset>
