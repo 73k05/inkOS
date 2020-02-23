@@ -1,12 +1,14 @@
 .input-email {
     background-color: transparent;
     border: 0px solid;
+    max-width: 100%;
 }
 
 .input-email-book {
     background-color: transparent;
     border: 0px solid;
     text-align: center;
+    max-width: 100%;
 }
 
 .mousse-over:hover {
@@ -27,7 +29,7 @@
 
 .flex-fill {
     flex: 1;
-    width: 100%;
+    width: 110%;
 }
 
 .hide {
