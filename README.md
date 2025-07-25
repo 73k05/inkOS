@@ -1,2 +1,3 @@
-# freelance
-One page HTML/CSS responsive design website for Freelancer
+# Source code of inkOS website
+
+![inkOSPreview](./images/preview.png "Site Web")
